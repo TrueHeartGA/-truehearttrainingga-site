@@ -37,3 +37,10 @@ footer{background:#170e1d;color:#bdb3c4}.footer-inner{min-height:100px;display:f
   .links a{padding:5px 0}
   .buttons .btn{width:100%;text-align:center}
 }
+
+.portal-page{padding:70px 0 100px;min-height:calc(100vh - 84px);background:linear-gradient(120deg,#faf5fd,#f5faeb)}
+.portal-page h1{font-family:"Playfair Display",Georgia,serif;font-size:clamp(42px,6vw,68px);line-height:1.08;margin:12px 0}
+.portal-page .section-heading{max-width:780px}
+.back-link{display:inline-block;margin-bottom:35px;font-weight:800;color:var(--purple)}
+.portal-page .portal-grid{max-width:900px}
+.portal-page .portal-card h2{font-family:"Playfair Display",Georgia,serif;font-size:29px;margin:12px 0 6px}
