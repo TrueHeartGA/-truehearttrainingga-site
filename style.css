@@ -25,3 +25,15 @@ footer{background:#170e1d;color:#bdb3c4}.footer-inner{min-height:100px;display:f
 .staff-portal{background:#24152e;color:#fff}.staff-portal .eyebrow{color:#b9df53}.staff-portal h2{color:#fff}.staff-portal .section-heading p{color:#d8cfe0}
 .staff-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.staff-card{background:#ffffff0d;border:1px solid #ffffff1c;border-radius:16px;padding:28px}.staff-card span{font-size:34px}.staff-card h3{font-size:21px;margin:10px 0 5px}.staff-card p{color:#d8cfe0;margin:0}
 @media(max-width:800px){.portal-grid,.staff-grid{grid-template-columns:1fr}}
+
+.portal-btn{background:#fff;border:2px solid var(--purple);color:var(--purple)}
+.portal-btn:hover{background:#f8effc}
+.portal-section{scroll-margin-top:84px}
+.portal-section .section-heading{margin-bottom:38px}
+.portal-card .btn{margin-top:4px}
+.contact-details a[href^="mailto"]{color:#b9df53}
+@media(max-width:800px){
+  .links{gap:12px}
+  .links a{padding:5px 0}
+  .buttons .btn{width:100%;text-align:center}
+}
