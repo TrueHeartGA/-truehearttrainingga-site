@@ -91,3 +91,131 @@ body{font-family:"DM Sans",Arial,sans-serif}
 .cta-band .eyebrow{color:#cbe77d}.cta-band .btn.primary{background:#fff;color:#5b1a83}
 @media(max-width:900px){.hero-grid,.about-grid{grid-template-columns:1fr}.program-grid{grid-template-columns:repeat(2,1fr)}.faq-grid{grid-template-columns:1fr}.cta-inner{flex-direction:column;align-items:flex-start}}
 @media(max-width:600px){.hero-grid{padding:58px 0}.hero-copy h1{font-size:46px;letter-spacing:-1px}.hero-card{min-height:390px}.program-grid{grid-template-columns:1fr}.hero-actions .btn{width:100%;text-align:center}.trust-row{display:grid;gap:8px}.about-grid{gap:30px}.cta-inner h2{font-size:30px}}
+/* =================================
+   TRUE HEART TRAINING GA
+   PROFESSIONAL WEBSITE HEADER
+================================= */
+
+/* Professional Navigation */
+.header {
+    background: #ffffff;
+    box-shadow: 0 4px 18px rgba(36, 21, 46, 0.07);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.header .container.nav {
+    max-width: 1400px;
+    margin: auto;
+    padding: 12px 35px;
+    min-height: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+/* Logo */
+.brand img {
+    width: 145px;
+    max-height: 100px;
+    object-fit: contain;
+    display: block;
+}
+
+/* Navigation Links */
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 27px;
+}
+
+.links a {
+    color: #24152e;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.25s ease;
+    white-space: nowrap;
+}
+
+.links a:hover {
+    color: #851db5;
+}
+
+/* Register Button */
+.links a:last-child {
+    background: #7417a8;
+    color: #ffffff;
+    padding: 13px 22px;
+    border-radius: 8px;
+}
+
+.links a:last-child:hover {
+    background: #5b1286;
+    transform: translateY(-2px);
+}
+
+/* Mobile Menu Button */
+.menu {
+    background: #7417a8;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+/* Mobile and Tablet Appearance */
+@media (max-width: 900px) {
+
+    .header .container.nav {
+        padding: 12px 20px;
+        min-height: 85px;
+        flex-wrap: wrap;
+    }
+
+    .brand img {
+        width: 115px;
+        max-height: 80px;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .links {
+        display: none;
+        flex-direction: column;
+        align-items: stretch;
+        width: 100%;
+        gap: 0;
+        padding: 10px 0;
+        background: #ffffff;
+    }
+
+    .links.open {
+        display: flex;
+    }
+
+    .links a {
+        padding: 14px 12px;
+        border-bottom: 1px solid #f0eaf4;
+        text-align: center;
+    }
+
+    .links a:last-child {
+        margin-top: 10px;
+        text-align: center;
+    }
+}
+
+/* Desktop Menu */
+@media (min-width: 901px) {
+    .menu {
+        display: none;
+    }
+}
