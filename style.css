@@ -32,7 +32,7 @@ footer{background:#170e1d;color:#bdb3c4}.footer-inner{min-height:100px;display:f
 .portal-section .section-heading{margin-bottom:38px}
 .portal-card .btn{margin-top:4px}
 .contact-details a[href^="mailto"]{color:#b9df53}
-@media(max-width:800px){
+@media(max-width:1100px){
   .links{gap:12px}
   .links a{padding:5px 0}
   .buttons .btn{width:100%;text-align:center}
@@ -91,6 +91,7 @@ body{font-family:"DM Sans",Arial,sans-serif}
 .cta-band .eyebrow{color:#cbe77d}.cta-band .btn.primary{background:#fff;color:#5b1a83}
 @media(max-width:900px){.hero-grid,.about-grid{grid-template-columns:1fr}.program-grid{grid-template-columns:repeat(2,1fr)}.faq-grid{grid-template-columns:1fr}.cta-inner{flex-direction:column;align-items:flex-start}}
 @media(max-width:600px){.hero-grid{padding:58px 0}.hero-copy h1{font-size:46px;letter-spacing:-1px}.hero-card{min-height:390px}.program-grid{grid-template-columns:1fr}.hero-actions .btn{width:100%;text-align:center}.trust-row{display:grid;gap:8px}.about-grid{gap:30px}.cta-inner h2{font-size:30px}}
+
 /* =================================
    TRUE HEART TRAINING GA
    PROFESSIONAL WEBSITE HEADER
@@ -217,5 +218,53 @@ body{font-family:"DM Sans",Arial,sans-serif}
 @media (min-width: 901px) {
     .menu {
         display: none;
+    }
+}
+
+/* =================================
+   TABLET AND IPAD NAVIGATION FIX
+   TRUE HEART TRAINING GA
+================================= */
+
+@media (max-width: 1100px) {
+
+    .header .container.nav {
+        padding: 12px 20px;
+        min-height: 85px;
+        flex-wrap: wrap;
+    }
+
+    .brand img {
+        width: 115px;
+        max-height: 80px;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .links {
+        display: none;
+        flex-direction: column;
+        align-items: stretch;
+        width: 100%;
+        gap: 0;
+        padding: 10px 0;
+        background: #ffffff;
+    }
+
+    .links.open {
+        display: flex;
+    }
+
+    .links a {
+        padding: 14px 12px;
+        border-bottom: 1px solid #f0eaf4;
+        text-align: center;
+    }
+
+    .links a:last-child {
+        margin-top: 10px;
+        text-align: center;
     }
 }
