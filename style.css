@@ -385,3 +385,11 @@ body{font-family:"DM Sans",Arial,sans-serif}
     margin: 15px auto 20px;
     border-radius: 50%;
 }
+.recognition-card img.aha-instructor-logo {
+    width: 90px !important;
+    max-width: 90px !important;
+    height: 90px !important;
+    object-fit: contain;
+    display: block;
+    margin: 15px auto;
+}
