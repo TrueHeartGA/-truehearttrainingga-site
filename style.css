@@ -303,3 +303,75 @@ body{font-family:"DM Sans",Arial,sans-serif}
     }
 
 }
+/* RECOGNITION & EDUCATIONAL AFFILIATIONS */
+
+.recognition-section {
+    padding: 75px 0;
+    background: linear-gradient(120deg, #faf5fd, #f4f9e9);
+    text-align: center;
+}
+
+.recognition-section h2 {
+    color: #24152e;
+    margin: 12px 0 15px;
+}
+
+.recognition-intro {
+    max-width: 680px;
+    margin: 0 auto 38px;
+    color: #665d6b;
+    font-size: 16px;
+}
+
+.recognition-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+}
+
+.recognition-card {
+    background: #ffffff;
+    padding: 30px 24px;
+    border-radius: 18px;
+    border: 1px solid #ece7ef;
+    border-top: 5px solid #7017a8;
+    box-shadow: 0 10px 30px rgba(43, 24, 55, .07);
+}
+
+.recognition-card:nth-child(2) {
+    border-top-color: #6b9e19;
+}
+
+.recognition-card:nth-child(3) {
+    border-top-color: #a82fc4;
+}
+
+.recognition-card h3 {
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 23px;
+    color: #7017a8;
+    margin: 5px 0 12px;
+}
+
+.recognition-card p {
+    color: #665d6b;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.recognition-card strong {
+    display: block;
+    color: #6b9e19;
+    font-size: 19px;
+    margin: 12px 0;
+}
+
+@media (max-width: 800px) {
+    .recognition-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .recognition-section {
+        padding: 60px 0;
+    }
+}
